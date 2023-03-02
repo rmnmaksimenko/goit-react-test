@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "user": "Elon Reeve Musk",
+      "tweets": 777,
+      "followers": 100500,
+      "avatar": "url.jpg"
+    },
+    {
+      "id": 2,
+      "user": "William Henry Gates",
+      "tweets": 440,
+      "followers": 27032224,
+      "avatar": "url.jpg"
+    },
+    {
+      "id": 3,
+      "user": "Joanne Rowling",
+      "tweets": 1024,
+      "followers": 486220,
+      "avatar": "url.jpg"
+    },
+    {
+      "id": 4,
+      "user": "Christian Charles Philip Bale",
+      "tweets": 1024,
+      "followers": 286440,
+      "avatar": "url.jpg"
+    },
+    {
+      "id": 5,
+      "user": "Thomas Anderson",
+      "tweets": 122,
+      "followers": 48720,
+      "avatar": "url.jpg"
+    }
+  ]
+}
