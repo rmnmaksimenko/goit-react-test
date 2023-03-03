@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/goit-react-test/static/css/main.b218d41f.css",
+    "main.js": "/goit-react-test/static/js/main.81369204.js",
+    "static/media/hero.png": "/goit-react-test/static/media/hero.b3d9942b3f9d5dad1ff0.png",
+    "static/media/hansel.png": "/goit-react-test/static/media/hansel.557969cfb75309c4a38c.png",
+    "static/media/logo.svg": "/goit-react-test/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
+    "index.html": "/goit-react-test/index.html",
+    "main.b218d41f.css.map": "/goit-react-test/static/css/main.b218d41f.css.map",
+    "main.81369204.js.map": "/goit-react-test/static/js/main.81369204.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b218d41f.css",
+    "static/js/main.81369204.js"
+  ]
+}
