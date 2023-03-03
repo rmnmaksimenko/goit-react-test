@@ -93,7 +93,7 @@ export const Followers = styled(TextTemplate)`
   margin-bottom: 26px;
 `;
 
-const FollowButtonTemplate = styled.button`
+export const FollowButton = styled.button`
   cursor: pointer;
   display: block;
   width: 196px;
@@ -104,6 +104,7 @@ const FollowButtonTemplate = styled.button`
   font-size: 18px;
   text-transform: uppercase;
   color: #373737;
+  background-color: ${props => (props.follow ? `#5cd3a8` : `#ebd8ff`)};
   box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
   border: none;
   border-radius: 10.3108px;
@@ -111,12 +112,4 @@ const FollowButtonTemplate = styled.button`
   &:hover {
     transform: scale(1.05);
   }
-`;
-
-export const FollowButtonUnchecked = styled(FollowButtonTemplate)`
-  background: #ebd8ff;
-`;
-
-export const FollowButtonChecked = styled(FollowButtonTemplate)`
-  background: #5cd3a8;
 `;

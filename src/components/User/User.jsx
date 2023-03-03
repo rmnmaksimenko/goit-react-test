@@ -1,6 +1,5 @@
 import {
-  FollowButtonChecked,
-  FollowButtonUnchecked,
+  FollowButton,
   Followers,
   HeroContainer,
   Line,
@@ -36,23 +35,25 @@ export const User = ({ data, isfollowed, changefollow }) => {
       <Tweets>{tweets} TWEETS</Tweets>
       <Followers>{isFollowingFollowers} FOLLOWERS</Followers>
       {isFollowed ? (
-        <FollowButtonChecked
+        <FollowButton
+          follow={true}
           type="button"
           onClick={() => {
             changefollow({ id });
           }}
         >
           FOLLOWING
-        </FollowButtonChecked>
+        </FollowButton>
       ) : (
-        <FollowButtonUnchecked
+        <FollowButton
+          follow={false}
           type="button"
           onClick={() => {
             changefollow({ id });
           }}
         >
           Follow
-        </FollowButtonUnchecked>
+        </FollowButton>
       )}
     </UserContainer>
   );
