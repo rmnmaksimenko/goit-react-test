@@ -1,9 +1,9 @@
-import { UserContainer } from './UserContainer/UserContainer';
+import { UserList } from './UserList/UserList';
 
 export const App = () => {
   return (
     <div>
-      <UserContainer />
+      <UserList />
     </div>
   );
 };

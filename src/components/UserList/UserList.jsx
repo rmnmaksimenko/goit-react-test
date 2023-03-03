@@ -4,7 +4,7 @@ import users from '../../data/users.json';
 
 const STORAGE = 'follow';
 
-export const UserContainer = () => {
+export const UserList = () => {
   const [follow, setFollow] = useLocalStorage(STORAGE, []);
 
   const isFollowed = ({ id }) => {
@@ -27,5 +27,5 @@ export const UserContainer = () => {
       changefollow={changeFollow}
     />
   ));
-  return <div>{result}</div>;
+  return <ul>{result}</ul>;
 };
